@@ -28,7 +28,7 @@ export default function Header() {
                     {currentUser ? (
                         <img 
                         className='rounded-full h-7 w-7 object-cover'
-                        src={'/images/profile.png' || currentUser.avatar}
+                        src={currentUser.avatar}
                         alt='profile'
                         style={{ width: '30px', height: '30px', objectFit: 'cover' }} 
                     />
